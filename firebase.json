@@ -1,1 +1,10 @@
-{}
+{
+  "hosting": {
+    "public": "https://fronthugo-5b350.web.app/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
