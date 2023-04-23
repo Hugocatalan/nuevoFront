@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "https://fronthugo-5b350.web.app/",
+    "public": "dist/hugo-catalan",
     "ignore": [
       "firebase.json",
       "**/.*",
