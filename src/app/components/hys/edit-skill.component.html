@@ -1,0 +1,27 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-2 h-100" *ngIf="skill">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                        <div class="mb-md-5 mt-md-4 pb-2">
+
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="formgrup">
+                    <label for="nombre">Skill</label>
+                    <input type="text" class="form-control" id= "nombre" name="nombre" [(ngModel)]="skill.nombre" required>
+                </div>
+                <div class="formgrup mt-4">
+                    <label for="porcentaje">Porcentaje de la Skill
+                    </label>
+                    <input type="text" class="form-control" id= "porcentaje" name="porcentaje" [(ngModel)]="skill.porcentaje" required>
+                </div>
+                <button class="btn btn-primary mt-4">Actualizar Skill</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>

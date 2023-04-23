@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <div> 
+                <a href="https://www.linkedin.com/in/hugo-catalán-895886133/" target="_blank"><img src="../../../assets/linkedin.png" alt="linkedin"> </a>
+                <a href="https://github.com/Hugocatalan" target="_blank"><img src="../../../assets/github.png" alt="github"> </a>
+                <a href="https://twitter.com/pesas_catalan" target="_blank"><img src="../../../assets/twitter.png" alt="twitter"> </a>
+                <a href="https://www.instagram.com/hugoivan.catalan/" target="_blank"><img src="../../../assets/instagram.png" alt="instagram"> </a>
+                <a href="https://www.facebook.com/hugo.catalan.334" target="_blank"><img src="../../../assets/facebook.png"  alt="facebook."> </a>
+                </div>
+        </div>
+        <div class="acceder">
+            <button type="button" class="btn btn-primary"(click)="login()" *ngIf="!isLogged">Acceder</button>
+            <button type="button" class="btn btn-primary"(click)="onLogOut()" *ngIf="isLogged">Salir</button>
+        </div>
+    </div>
+</div>

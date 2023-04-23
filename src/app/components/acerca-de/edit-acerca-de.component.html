@@ -1,0 +1,45 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-2 h-100" *ngIf="persona">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                        <div class="mb-md-5 mt-md-4 pb-2">
+                            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                                <div class="formgrup">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre"
+                                        [(ngModel)]="persona.nombre" required>
+                                </div>
+                                <div class="formgrup mt-4">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido" name="apellido"
+                                        [(ngModel)]="persona.apellido" required>
+                                </div>
+                                <div class="formgrup mt-4">
+                                    <label for="descipcion">Descripcion (Acerca de)</label>
+                                    <input type="text" class="form-control" id="descripcion" name="descripcion"
+                                        [(ngModel)]="persona.descripcion" required>
+                                </div>
+
+                                <div class="formgrup mt-4">
+                                    <label for="img">Imagen</label>
+                                    <input type="file" class="form-control" id="img" name="img"
+                                        [(ngModel)]="persona.img" (change)="uploadImage($event)" acept=".jpg, .jpeg, .png">
+                                </div>
+
+                                <div class="imagen mt-2">
+                                    <img [src]="imageService.url" width="50px">
+
+                                </div>
+
+
+                                <button class="btn btn-primary mt-4">Actualizar Persona</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

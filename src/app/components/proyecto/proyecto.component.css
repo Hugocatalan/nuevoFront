@@ -1,0 +1,16 @@
+.row{
+    padding: 20px;
+    background-color: #4c94a3;
+}
+
+*{
+    overflow: hidden;
+}
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+.img-proyecto{
+    box-shadow: 5px 5px 10px #000000;
+}

@@ -1,0 +1,15 @@
+.row{
+    background-color: #4c94a3;
+    padding: 20px;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+*{
+    overflow: hidden;
+}
