@@ -13,9 +13,9 @@ export const environment = {
     messagingSenderId: '999940097079',
     measurementId: 'G-EH7WLLDLMX',
   },
-  production: false,
+  production: true,
 
-URL: 'https://fronthugo-5b350.web.app'
+URL: 'https://localhost:8080/'
 
 };
 
