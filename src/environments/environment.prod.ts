@@ -10,5 +10,5 @@ export const environment = {
     measurementId: 'G-EH7WLLDLMX',
   },
   production: true,
-  URL: 'http://localhost:8080/',
+  URL: 'https://fronthugo-5b350.web.app',
 };

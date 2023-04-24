@@ -15,7 +15,7 @@ export const environment = {
   },
   production: false,
 
-URL: 'http://localhost:8080/'
+URL: 'https://fronthugo-5b350.web.app'
 
 };
 
