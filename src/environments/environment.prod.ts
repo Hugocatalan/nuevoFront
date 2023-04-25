@@ -10,5 +10,5 @@ export const environment = {
     measurementId: 'G-EH7WLLDLMX',
   },
   production: true,
-  URL: 'https://backendhugo.onrender.com/',
+  URL: 'https://backendhugo.onrender.com',
 };

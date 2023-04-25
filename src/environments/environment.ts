@@ -15,7 +15,7 @@ export const environment = {
   },
   production: true,
 
-URL: 'https://localhost:8080/'
+URL: 'https://backendhugo.onrender.com'
 
 };
 
