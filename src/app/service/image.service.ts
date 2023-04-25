@@ -23,8 +23,8 @@ export class ImageService {
     list(imagesRef)
     .then(async response => {
       for(let item of response.items){
-        this.url = await getDownloadURL(item);
-        console.log("La URL es:" + this.url)
+        this.URL = await getDownloadURL(item);
+        console.log("La URL es:" + this.URL)
       }
   })
   .catch(error => console.log(error))
