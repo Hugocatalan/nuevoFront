@@ -6,7 +6,7 @@ export const environment = {
 
   production: true,
 
-URL: "https://backendhugo.onrender.com",
+URL: "https://backendhugo.onrender.com/",
   firebase: {
     projectId: 'fronthugo-5b350',
     appId: '1:999940097079:web:b6aea6aa0b5df01628abb2',

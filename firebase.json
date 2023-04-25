@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/hugo-catalan",
+    "public": "dist/pf-nelson-correa",
     "ignore": [
       "firebase.json",
       "**/.*",
