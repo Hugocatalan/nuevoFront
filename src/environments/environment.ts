@@ -15,7 +15,7 @@ export const environment = {
   },
   production: true,
 
-URL: 'https://backendhugo.onrender.com'
+URL: "https://backendhugo.onrender.com"
 
 };
 
