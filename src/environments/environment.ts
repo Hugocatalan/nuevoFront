@@ -3,6 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+
+  production: true,
+
+URL: "https://backendhugo.onrender.com",
   firebase: {
     projectId: 'fronthugo-5b350',
     appId: '1:999940097079:web:b6aea6aa0b5df01628abb2',
@@ -13,9 +17,6 @@ export const environment = {
     messagingSenderId: '999940097079',
     measurementId: 'G-EH7WLLDLMX',
   },
-  production: true,
-
-URL: "https://backendhugo.onrender.com"
 
 };
 
